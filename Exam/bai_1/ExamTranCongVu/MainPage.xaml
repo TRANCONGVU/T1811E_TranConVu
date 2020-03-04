@@ -1,0 +1,53 @@
+﻿<Page
+    x:Class="ExamTranCongVu.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ExamTranCongVu"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#c0c0c0" Width="350px" Height="450px" CornerRadius="0" >
+        <Canvas Width="500" Height="500">
+            <Rectangle Fill="ForestGreen" Height="50" Width="50"/>
+            <TextBlock Foreground="White" FontSize="10" Text="Phótoshop: 66°" Margin="0,5,25,0"/>
+            
+            <Rectangle Fill="ForestGreen" Height="50" Width="50"  Canvas.Left="55"/>
+            <TextBlock Foreground="White" FontSize="10" Text="inVision" Margin="60,5,25,0"/>
+            <Rectangle Fill="ForestGreen" Height="50" Width="50" Canvas.Left="110"/>
+            <TextBlock Foreground="White" FontSize="10" Text="Ux" Margin="120,5,25,0"/>
+            <Rectangle Fill="ForestGreen" Height="100" Width="105" Canvas.Left="55" Canvas.Top="55"/>
+            <TextBlock Foreground="White" FontSize="10" Text="Design" Margin="60,55,55,0"/>
+
+            <Rectangle Fill="LightGreen" Height="50" Width="50" Canvas.Left="165" Canvas.Top="105"/>
+            <TextBlock Foreground="White" FontSize="10" Text="PHp" Margin="170,110,55,0"/>
+            <Rectangle Fill="LightGreen" Height="50" Width="50" Canvas.Left="220" Canvas.Top="105"/>
+            <TextBlock Foreground="White" FontSize="10" Text="HTML" Margin="225,110,55,0"/>
+            <Rectangle Fill="LightGreen" Height="50" Width="50" Canvas.Left="220" Canvas.Top="50"/>
+            <TextBlock Foreground="White" FontSize="10" Text="Rust" Margin="225,60,55,0"/>
+            <Rectangle Fill="ForestGreen" Height="50" Width="50"  Canvas.Left="55" Canvas.Top="160"/>
+            <TextBlock Foreground="White" FontSize="10" Text="Javascript" Margin="55,165,55,0"/>
+            <Rectangle Fill="LightGreen" Height="50" Width="50"  Canvas.Left="110" Canvas.Top="160"/>
+            <TextBlock Foreground="White" FontSize="10" Text="Layout" Margin="115,165,55,0"/>
+            <Rectangle Fill="ForestGreen" Height="50" Width="50"  Canvas.Left="55" Canvas.Top="215"/>
+            <TextBlock Foreground="White" FontSize="10" Text="Go" Margin="60,220,55,0"/>
+            <Rectangle Fill="ForestGreen" Height="50" Width="50"  Canvas.Left="110" Canvas.Top="215"/>
+            <TextBlock Foreground="White" FontSize="10" Text="Css" Margin="115,220,55,0"/>
+            <Rectangle Fill="ForestGreen" Height="105" Width="105" Canvas.Left="165" Canvas.Top="160"/>
+            <TextBlock Foreground="White" FontSize="13" Text="WebDev" Margin="170,165,55,0"/>
+            <Rectangle Fill="ForestGreen" Height="50" Width="50"  Canvas.Left="55" Canvas.Top="270"/>
+            <TextBlock Foreground="White" FontSize="10" Text="Ruby" Margin="60,275,55,0"/>
+            <Rectangle Fill="Purple" Height="105" Width="105" Canvas.Left="110" Canvas.Top="270"/>
+            <TextBlock Foreground="White" FontSize="10" Text="Motion" Margin="115,275,55,0"/>
+            <Rectangle Fill="Purple" Height="50" Width="50"  Canvas.Left="220" Canvas.Top="270"/>
+            <TextBlock Foreground="White" FontSize="10" Text="Maya" Margin="225,275,55,0"/>
+            <Rectangle Fill="Purple" Height="50" Width="50"  Canvas.Left="220" Canvas.Top="325"/>
+            <TextBlock Foreground="White" FontSize="10" Text="Nuke" Margin="225,330,55,0"/>
+            <Rectangle Fill="Purple" Height="50" Width="50"  Canvas.Left="275" Canvas.Top="270"/>
+            <TextBlock Foreground="White" FontSize="10" Text="Cinema" Margin="280,275,55,0"/>
+            <Rectangle Fill="Purple" Height="50" Width="50"  Canvas.Left="220" Canvas.Top="380"/>
+            <TextBlock Foreground="White" FontSize="10" Text="After Efect" Margin="225,385,55,0"/>
+        </Canvas>
+    </Grid>
+</Page>
